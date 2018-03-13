@@ -1,0 +1,20 @@
+<div class='sidebar'>
+  <div class='sidebar-title'>
+    Pick a language to learn
+  </div>
+
+  <div class="sidebar-countries">
+    <% data.countries.each do |country| %>
+      <div class="sidebar-country">
+        <img class="sidebar-icon" src="images/country-thumbnails/<%= country.code %>.png" />
+        <div class="sidebar-text">
+          <%= country.name %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="sidebar-button">
+    SHOW MORE LANGUAGES
+  </div>
+</div>
