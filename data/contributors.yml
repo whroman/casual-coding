@@ -1,0 +1,12 @@
+claire_larkin:
+  name: Claire Larkin
+  description: Claire Larkin was born and raised in Arizona before jumping ship and moving to Berlin in 2017. While she studied political science and history in university, she now spends her time writing and editing for Babbel Magazine. In her free time, Claire likes to watch all kinds of science fiction, give astrology readings, and hoard wool to stay warm during German winters.
+  image: images/contributors/claire_larkin.jpg"
+  articles:
+    -
+      title: The Language Of Flowers
+      id: the-language-of-flowers
+    -
+      title: Why Babbel’s Developers Make A Difference
+      id: why-babbels-developers-make-a-difference
+

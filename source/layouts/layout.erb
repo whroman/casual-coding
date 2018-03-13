@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title || "Middleman" %></title>
+    <%= stylesheet_link_tag "normalize" %>
+    <%= stylesheet_link_tag "site" %>
+    <%= stylesheet_link_tag "contributor" %>
+    <%= stylesheet_link_tag "sidebar" %>
+    <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    <div>
+      <div class='mast'>
+        <div class='page-column'>
+          <div class='title'>
+            <%= current_page.data.title %>
+          </div>
+          <% if current_page.data.subtitle %>
+            <div class='subtitle'>
+              <%= current_page.data.subtitle %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+
+      <div class='page-column'>
+        <div class='left-column'>
+          <%= yield %>
+        </div>
+        <div class='right-column'>
+          <div class='sidebar'>
+            <div class='sidebar-title'>
+              Pick a language to learn
+            </div>
+
+            <div class="sidebar-countries">
+              <% data.countries.each do |country| %>
+                <div class="sidebar-country">
+                  <img class="sidebar-icon" src="images/country-thumbnails/<%= country.code %>.png" />
+                  <div class="sidebar-text">
+                    <%= country.name %>
+                  </div>
+                </div>
+              <% end %>
+            </div>
+
+            <div class="sidebar-button">
+              SHOW MORE LANGUAGES
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+---
+title: Our Contributors
+---
+
+<div>
+	<div class="contributer-header">
+		The Babbel Magazine was founded in 2014 to share informative and inspiring stories about world languages and cultures. Our contributors hail from eleven countries on five continents.
+	</div>
+	<div class="contributor-profile">
+		<div class="contributor-profile-image">
+			<img src="<%= data.contributors.claire_larkin.image %>">
+		</div>
+		<div class="contributor-profile-text">
+			<div class="contributor-profile-text-name">
+				About <%= data.contributors.claire_larkin.name %>
+			</div>
+			<div class="contributor-profile-text-description">
+				<%= data.contributors.claire_larkin.description %>
+			</div>
+		</div>
+	</div>
+	<div class="contributor-articles">
+	  <% data.contributors.claire_larkin.articles.each do |article| %>
+			<div class="contributor-article">
+			  <div class="contributor-article-title">
+			  	<a href="/">
+				  	<%= article.title %>		  		
+			  	</a>
+			  </div>
+			  <div class="contributor-article-image">
+			  	<img src="images/articles/<%= article.id %>.jpg">	
+		  	</div>
+	  	</div>
+	  <% end %>
+	</div>
+</div>
