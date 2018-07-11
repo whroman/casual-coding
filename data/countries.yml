@@ -1,18 +1,40 @@
 -
-  name: German
-  code: de
--
   name: Spanish
   code: es
--
-  name: Italian
-  code: it
 -
   name: French
   code: fr
 -
+  name: German
+  code: de
+-
+  name: Italian
+  code: it
+-
   name: Portuguese
-  code: pt
+  code: br
 -
   name: Swedish
   code: se
+-
+  name: Danish
+  code: dk
+-
+  name: Polish
+  code: pl
+-
+  name: Turkish
+  code: tr
+-
+  name: Russian
+  code: ru
+-
+  name: Indonesian
+  code: id
+-
+  name: Norwegian
+  code: no
+-
+  name: Dutch
+  code: nl
+
