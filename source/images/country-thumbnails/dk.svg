@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-dk" viewBox="0 0 640 480">
+  <style>
+    .st1{fill:#fff}
+  </style>
+  <path fill="#e4302d" d="M0 0h640.1v480H0V0z"/>
+  <path d="M205.7 0h68.6v480h-68.6V0z" class="st1"/>
+  <path d="M0 205.7h640.1v68.6H0v-68.6z" class="st1"/>
+</svg>

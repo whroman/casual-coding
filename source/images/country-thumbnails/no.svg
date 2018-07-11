@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-no" viewBox="0 0 640 480">
+  <style>
+    .st1{fill:#fff}.st2{fill:#2952a1}
+  </style>
+  <path fill="#e4302d" d="M0 0h640v480H0V0z"/>
+  <path d="M180 0h120v480H180V0z" class="st1"/>
+  <path d="M0 180h640v120H0V180z" class="st1"/>
+  <path d="M210 0h60v480h-60V0z" class="st2"/>
+  <path d="M0 210h640v60H0v-60z" class="st2"/>
+</svg>
