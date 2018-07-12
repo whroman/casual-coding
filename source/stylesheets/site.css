@@ -7,16 +7,21 @@ body {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 30px;
+  overflow: auto;
 }
 
 .left-column {
   float: left;
-  width: calc(100% - 340px);
+  width: calc(100% - 376px);
   margin-bottom: 20px;
 }
 
 .right-column {
   float: left;
-  width: 290px;
-  padding-left: 50px;
+  width: 300px;
+  padding-left: 76px;
+}
+
+a {
+  text-decoration: none;
 }

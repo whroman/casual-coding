@@ -1,0 +1,33 @@
+h1 {
+  font-family: times;
+  font-size: 42px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 100;
+  margin: 15px 0;
+}
+
+.contributor-image {
+  width: 48px;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contributor-text {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.contributor-text a {
+  color: #44cdc8;
+}
+
+.article-image {
+  width: 100%;
+}

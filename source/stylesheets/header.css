@@ -1,17 +1,23 @@
 .header {
-  background-image: url('/images/header-pattern.jpg');
-  padding: 40px 0 54px 0;
-  margin-bottom: 50px;
+  padding: 20px 0;
+  margin-bottom: 44px;
+  border-bottom: 1px solid #d3d8dc;
 }
 
-.header-title {
-  font-size: 40px;
-  font-weight: 600;
+.header-logo {
+  float: left;
+  width: 245px;
 }
 
-.header-subtitle {
-  font-size: 21px;
-  font-weight: 100;
-  color: #727267;
-  margin-top: 10px;
+.header-button {
+  float: right;
+  background-color: #ff790f;
+  color: #FFF;
+  font-weight: 800;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.header-button:hover {
+  background-color: #ef700d;
 }
