@@ -1,46 +1,44 @@
-.sidebar {
-	background-color: #f2f0e9;
-	text-align: center;
-	padding: 15px;
-	border: 5px solid #edebe1;
-}
-
 .sidebar-title {
-	font-size: 16px;
+	font-size: 24px;
 	font-weight: 800;
-	margin-bottom: 12px;
+	margin-bottom: 24px;
+	line-height: 28px;
+	text-align: center;
 }
 
 .sidebar-countries {
-	margin-bottom: 7px;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
 }
 
 .sidebar-country {
-	width: 30%;
-	margin: 0 1% 8px 1%;
-	border: 1px solid #b9b9b3;
-	color: #4c4c45;
-	background-color: #fff;
-	border-radius: 4px;
-	padding: 8px;
+	width: 48%;
+	margin-bottom: 8px;
+	padding: 10px 8px;
+	border: 1px solid #ececf3;
+	color: #284b7c;
+	background-color: #f4f8fa;
+	border-radius: 5px;
 	display: inline-block;
 	box-sizing: border-box;
+	text-align: left;
+}
+
+.sidebar-country:hover {
+	border-color: #d3d8dc
 }
 
 .sidebar-icon {
-	width: 40px;
+	width: 24px;
+	vertical-align: middle;
+	display: inline-block;
+	border-radius: 2px;
+	margin-right: 7px;
 }
 
 .sidebar-text {
-	font-size: 10px;
-}
-
-.sidebar-button {
-	width: 100%;
-	padding: 10px;
-	border: 2px solid #ff8d15;
-	background-color: #ff8d15;
-	color: #ffffff;
-	border-radius: 4px;
-	box-sizing: border-box;
+	font-size: 14px;
+	vertical-align: middle;
+	display: inline-block;
 }

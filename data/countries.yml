@@ -33,7 +33,7 @@
   code: id
 -
   name: Norwegian
-  code: no
+  code: 'no'
 -
   name: Dutch
   code: nl

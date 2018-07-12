@@ -6,15 +6,14 @@
   <div class="sidebar-countries">
     <% data.countries.each do |country| %>
       <div class="sidebar-country">
-        <img class="sidebar-icon" src="images/country-thumbnails/<%= country.code %>.png" />
+        <img
+          class="sidebar-icon"
+          src="images/country-thumbnails/<%= country.code %>.svg"
+        />
         <div class="sidebar-text">
           <%= country.name %>
         </div>
       </div>
     <% end %>
-  </div>
-
-  <div class="sidebar-button">
-    <%= data.sidebar.cta_label %>
   </div>
 </div>
